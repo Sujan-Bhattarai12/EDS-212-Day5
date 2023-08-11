@@ -1,7 +1,17 @@
 ---
 title: "EDS-Day5"
-format: html
+format: 
+  html: 
+    code-fold: true
+    code-summary: "Show me the code!"
 editor: visual
+execute:
+  echo: true  
+  warning: false
 ---
 
 ## Probability theory
+
+```{r}
+library(tidyverse)
+```
