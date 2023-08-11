@@ -15,3 +15,20 @@ execute:
 ```{r}
 library(tidyverse)
 ```
+
+Starwars
+
+```{r}
+head(starwars)
+dim(starwars)
+```
+
+```{r}
+ggplot(starwars, aes(height))+
+  geom_histogram()
+```
+
+```{r}
+ggplot(starwars, aes(height, mass))+
+  geom_point()
+```
